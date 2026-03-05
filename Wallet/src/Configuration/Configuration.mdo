@@ -15,6 +15,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Vikki</vendor>
   <version>1.1.0.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -39,4 +40,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.КатегорииУчета</catalogs>
+  <catalogs>Catalog.Счета</catalogs>
+  <enums>Enum.ТипыКатегорийУчета</enums>
 </mdclass:Configuration>

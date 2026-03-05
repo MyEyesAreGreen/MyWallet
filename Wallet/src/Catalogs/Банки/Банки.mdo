@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0385be07-1c85-4729-abf0-7c383be85acf">
+  <producedTypes>
+    <objectType typeId="3d4952b1-4c9f-43da-8582-59e5fd4818f5" valueTypeId="c150bbaf-65a4-4b71-a883-a5a0913e386f"/>
+    <refType typeId="ff43ac5f-1673-483d-90e6-097018f81a9e" valueTypeId="dc5edb50-43b6-4577-a52d-55f06c10499f"/>
+    <selectionType typeId="263042cd-a3e8-4b3a-8409-1e0ab4e1738d" valueTypeId="72c5024a-7fa8-437e-b430-88f197ca9260"/>
+    <listType typeId="4e2ee178-eab6-432b-a1da-66f75c8ba542" valueTypeId="026efba9-c407-4aa2-ac85-324ac004836a"/>
+    <managerType typeId="f8e0098f-4c81-4069-9e1a-349c61b2342c" valueTypeId="48e65705-61ae-4453-b45f-4d6f26a4c377"/>
+  </producedTypes>
+  <name>Банки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Банки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Банк</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Банк</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Банки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Банки</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c44aae16-5efe-45ba-a112-c513bb701af2">
+    <name>Логотип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
