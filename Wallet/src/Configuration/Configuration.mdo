@@ -40,9 +40,18 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <definedTypes>DefinedType.СуммаДокумента</definedTypes>
   <catalogs>Catalog.Банки</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.КатегорииУчета</catalogs>
   <catalogs>Catalog.Счета</catalogs>
+  <catalogs>Catalog.ЦелиПереводов</catalogs>
+  <documents>Document.ВводНачальныхОстатков</documents>
+  <documents>Document.ПереводМеждуСчетами</documents>
+  <documents>Document.ПоступлениеДС</documents>
+  <documents>Document.СписаниеДС</documents>
   <enums>Enum.ТипыКатегорийУчета</enums>
+  <informationRegisters>InformationRegister.КурсВнутреннихПереводов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d73808f-1b8d-4c27-925a-5ccf43b623dd">
+  <producedTypes>
+    <containerType typeId="88c608fd-23a8-4f4c-8be3-656118596c47" valueTypeId="9f159bfb-651a-4b8c-a46e-b9637cd39e6c"/>
+  </producedTypes>
+  <name>СуммаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма в документе</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

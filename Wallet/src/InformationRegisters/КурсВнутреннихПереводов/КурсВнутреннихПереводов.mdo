@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4715e49-6967-4645-adaa-8b86d6f4c5f5">
+  <producedTypes>
+    <selectionType typeId="64c47175-d705-4e53-b534-36613d29f362" valueTypeId="41698837-7e68-4e02-886a-afd619517119"/>
+    <listType typeId="cccd8e57-96ac-4c8c-bbd8-c8d2195bfc42" valueTypeId="a61b4897-06fd-4653-9aba-758f10b0139d"/>
+    <managerType typeId="f5dafa11-5638-4000-869a-352a2cc9069d" valueTypeId="89c5f100-afdf-4a0e-987c-bb1e55209af3"/>
+    <recordSetType typeId="54fbc911-9638-4c63-877b-1523fc2fba89" valueTypeId="4cca2f5b-5153-4f2a-a5d8-318727733d2f"/>
+    <recordKeyType typeId="96cb9cd4-9ea5-4f5a-809e-0f076b153eb7" valueTypeId="0d46cafa-6bc4-404c-bef6-3ca3a6372283"/>
+    <recordType typeId="34cc93bb-d167-4ed3-b0f5-5ecc8157ae2e" valueTypeId="69c742cc-9390-4e35-887c-adab2400a0fc"/>
+    <recordManagerType typeId="726dd9f6-0e23-42ba-b43a-2a708f848858" valueTypeId="dd8c95fa-0ceb-4d0c-b943-d9281d123e30"/>
+  </producedTypes>
+  <name>КурсВнутреннихПереводов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс внутренних переводов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Курс внутренних переводов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Курс внутренних переводов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Курсы внутренних переводов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Курсы внутренних переводов</value>
+  </extendedListPresentation>
+  <resources uuid="c52efa39-a7fa-444f-b5ce-147f9d489669">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СуммаДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9f4a9e70-76cd-4d43-ad59-bb74e02b8758">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПереводМеждуСчетами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1e4db20d-e89e-4578-ba7b-61a7693fdb70">
+    <name>ВалютаИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17b1c2fd-ea72-4571-8115-f733aeb25597">
+    <name>ВалютаПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e001cb41-a838-48d3-9cfa-9cdac85059bb">
+  <producedTypes>
+    <objectType typeId="d7bcacc7-331b-4c9c-a9b2-56e02a5c075b" valueTypeId="661d031a-333c-4952-8660-d2ca79d073e0"/>
+    <refType typeId="20115502-23d9-4f06-822b-2a889b3fda1c" valueTypeId="96dc1465-918a-479b-936b-a3066803aefe"/>
+    <selectionType typeId="5920d1d6-9691-4df8-bb16-20a6ce4d3df2" valueTypeId="b871ded5-d718-4d21-a3fb-47e924765246"/>
+    <listType typeId="0ef38492-4c04-4a57-9b2c-120062568afe" valueTypeId="b3ca8634-d613-42bc-a059-691bda3d2590"/>
+    <managerType typeId="952655bc-6898-4ab1-b375-f367185f249e" valueTypeId="14c029a0-3541-46e2-b7f8-29bfe8e1e252"/>
+  </producedTypes>
+  <name>ЦелиПереводов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цели переводов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦелиПереводов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЦелиПереводов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Цель перевода</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Цель перевода</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цели переводов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Цели переводов</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b00eb2db-90aa-409b-b3ba-13f5d2469fa0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
