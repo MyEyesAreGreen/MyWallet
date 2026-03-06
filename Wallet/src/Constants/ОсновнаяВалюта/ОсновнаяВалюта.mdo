@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed34ad51-1a1b-413a-a60e-e79af7f98663">
+  <producedTypes>
+    <managerType typeId="c9cb8d3d-1b27-4a08-a0e1-a52d8555d21c" valueTypeId="f870821f-44d1-4c5c-877e-287fd65d9632"/>
+    <valueManagerType typeId="2b5fbee2-8783-4210-b8cd-55d24d28ba69" valueTypeId="f2f2dbbe-e091-4794-aef3-e2fde9c21a1c"/>
+    <valueKeyType typeId="00bb475c-c210-4c65-b36b-d75338483c66" valueTypeId="a825aba7-9ab7-4603-b016-89bd32b583f9"/>
+  </producedTypes>
+  <name>ОсновнаяВалюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная валюта учета</value>
+  </synonym>
+  <comment>Валюта, в которой строятся все отчеты и производится анализ финансов</comment>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

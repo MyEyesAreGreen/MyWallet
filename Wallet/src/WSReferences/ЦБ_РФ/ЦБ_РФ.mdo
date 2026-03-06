@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26462a01-abf3-46f0-b25f-e27b96c9f21a">
+  <producedTypes>
+    <managerType typeId="e59320a8-ba81-48af-b195-61a4ee90f8ab" valueTypeId="2d855b12-7010-4c40-bdb9-04941f98542b"/>
+  </producedTypes>
+  <name>ЦБ_РФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБ РФ</value>
+  </synonym>
+  <locationURL>https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx?WSDL</locationURL>
+</mdclass:WSReference>

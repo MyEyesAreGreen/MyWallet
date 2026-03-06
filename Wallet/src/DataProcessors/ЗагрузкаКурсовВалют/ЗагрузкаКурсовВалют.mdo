@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f300960-39f0-4e11-987e-fe1ae2b06f5b">
+  <producedTypes>
+    <objectType typeId="ffa62e3f-f4fe-4013-9271-7a7efb70d4e5" valueTypeId="730330f6-3a1a-4793-8f38-4a6fcb87eb1e"/>
+    <managerType typeId="bd6825f0-cd79-439a-9c18-b00eafd7a5ed" valueTypeId="40054c29-2086-436c-ad29-cb788529f0d5"/>
+  </producedTypes>
+  <name>ЗагрузкаКурсовВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКурсовВалют.Form.Форма</defaultForm>
+  <attributes uuid="8ed5419a-ac29-4f42-b961-80722d06de69">
+    <name>ДатаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата загрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bc541d75-623b-42ea-bf54-438418e9f9a2">
+    <producedTypes>
+      <objectType typeId="02402023-58c6-400f-8658-64188cb38d7f" valueTypeId="2353d02b-f528-4d62-93de-1780a622fa6f"/>
+      <rowType typeId="ef6285e2-b718-48a7-853e-86c8124d6a7c" valueTypeId="34dffa90-1745-419f-89d6-fb245c647367"/>
+    </producedTypes>
+    <name>ЗагружаемыеВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружаемые валюты</value>
+    </synonym>
+    <attributes uuid="c5b95143-8e0f-4175-863a-77106a4fa8b1">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="15a3caaa-3c1e-4bb8-b073-1e8c1bb98d04">
+      <name>Курс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Курс</value>
+      </synonym>
+      <type>
+        <types>DefinedType.СуммаДокумента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5cd4693d-c4bd-4adf-8c33-a0ea1b280ab2">
+      <name>Записан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Записан</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="642c7bf1-7b46-468b-b294-50bb302e68ea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

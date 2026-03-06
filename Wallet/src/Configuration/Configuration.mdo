@@ -40,8 +40,14 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Служебные</subsystems>
+  <subsystems>Subsystem.Учет</subsystems>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <wsReferences>WSReference.ЦБ_РФ</wsReferences>
   <definedTypes>DefinedType.СуммаДокумента</definedTypes>
+  <constants>Constant.ОсновнаяВалюта</constants>
   <catalogs>Catalog.Банки</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.КатегорииУчета</catalogs>
@@ -52,6 +58,8 @@
   <documents>Document.ПоступлениеДС</documents>
   <documents>Document.СписаниеДС</documents>
   <enums>Enum.ТипыКатегорийУчета</enums>
+  <dataProcessors>DataProcessor.ЗагрузкаКурсовВалют</dataProcessors>
   <informationRegisters>InformationRegister.КурсВнутреннихПереводов</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
 </mdclass:Configuration>

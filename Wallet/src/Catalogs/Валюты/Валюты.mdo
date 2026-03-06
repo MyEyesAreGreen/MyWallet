@@ -132,7 +132,6 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined/>
   <editType>InDialog</editType>
