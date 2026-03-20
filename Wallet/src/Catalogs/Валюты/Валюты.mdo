@@ -136,6 +136,7 @@
   <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="0943601b-797d-4d49-8e3e-b4a45ff0e9aa">
     <name>НаименованиеПолное</name>
     <synonym>
@@ -195,4 +196,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="cfa833be-e6df-45db-bbf4-73ae27be9251">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

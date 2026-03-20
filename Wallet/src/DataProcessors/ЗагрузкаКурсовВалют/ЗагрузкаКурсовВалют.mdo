@@ -36,35 +36,58 @@
       <key>ru</key>
       <value>Загружаемые валюты</value>
     </synonym>
-    <attributes uuid="c5b95143-8e0f-4175-863a-77106a4fa8b1">
-      <name>Валюта</name>
+    <attributes uuid="6acebc41-8191-43ad-a9d1-7f63a940fff0">
+      <name>ЦифровойКодВалюты</name>
       <synonym>
         <key>ru</key>
-        <value>Валюта</value>
+        <value>Цифровой код валюты</value>
       </synonym>
       <type>
-        <types>CatalogRef.Валюты</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>3</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3f9e0311-36cb-4465-b978-769221c779f7">
+      <name>СимвольныйКодВалюты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Символьный код валюты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="15a3caaa-3c1e-4bb8-b073-1e8c1bb98d04">
-      <name>Курс</name>
+    <attributes uuid="d0fb8d20-690a-438f-b663-7481fe71866b">
+      <name>НаименованиеВалюты</name>
       <synonym>
         <key>ru</key>
-        <value>Курс</value>
+        <value>Наименование валюты</value>
       </synonym>
       <type>
-        <types>DefinedType.СуммаДокумента</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="5cd4693d-c4bd-4adf-8c33-a0ea1b280ab2">
-      <name>Записан</name>
+    <attributes uuid="09a847fe-ec83-4151-915b-8abd95fe4fc4">
+      <name>Существует</name>
       <synonym>
         <key>ru</key>
-        <value>Записан</value>
+        <value>Существует</value>
       </synonym>
       <type>
         <types>Boolean</types>
@@ -78,6 +101,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5cd157e1-39e9-4c07-a98b-fe52fe0af649">
+    <name>ФормаЗагрузкиВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки валют</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

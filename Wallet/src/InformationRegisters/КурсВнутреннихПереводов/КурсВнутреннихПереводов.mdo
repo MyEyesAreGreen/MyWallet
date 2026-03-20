@@ -49,6 +49,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="0e8533d4-c524-41cd-a7df-5fcfc7d50664">
+    <name>Номинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинал</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <attributes uuid="9f4a9e70-76cd-4d43-ad59-bb74e02b8758">
     <name>ДокументОснование</name>
     <synonym>

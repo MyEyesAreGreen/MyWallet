@@ -44,6 +44,7 @@
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Служебные</subsystems>
   <subsystems>Subsystem.Учет</subsystems>
+  <commonModules>CommonModule.ВзаимодействиеСВалютами</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <wsReferences>WSReference.ЦБ_РФ</wsReferences>
   <definedTypes>DefinedType.СуммаДокумента</definedTypes>
